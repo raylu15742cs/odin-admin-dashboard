@@ -29,6 +29,10 @@
 }
 .nav {
     background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr .5fr .5fr 1.2fr;
+    padding-top: 15px;
 }
 .yourprojects {
     background-color: brown;
@@ -51,4 +55,15 @@ p {
 .zerosection {
     font-size: 1.5rem;
     padding-top: 15px;
+}
+textarea {
+    border-radius: 15px;
+    height: 24px;
+    margin-right: 50px;
+}
+.navone {
+    padding-left: 50px;
+}
+.navtwo {
+    padding-left: 30px;
 }
